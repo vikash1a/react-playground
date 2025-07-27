@@ -1,9 +1,14 @@
-function App() {
+function MyButton(){
   return (
-    <div>
-      <h1>Hello, React!</h1>
-    </div>
-  );
+      <button>I am a button</button>
+  )
 }
 
-export default App;
+export default function MyApp(){
+  return (
+      <div>
+          <h1>Welcome to App</h1>
+          <MyButton />
+      </div>
+  )
+}
